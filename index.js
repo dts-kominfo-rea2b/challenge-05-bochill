@@ -7,7 +7,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = function(array, sortedArray){
-    return sortedArray(array).map(function(indeks, value){
+    return sortedArray(array).map(function(value, indeks){
         return (indeks + 1) + ". " + value;
     });
 };
